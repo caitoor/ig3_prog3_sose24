@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    letter-spacing: 4px;
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+h5 {
+    color: red;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}

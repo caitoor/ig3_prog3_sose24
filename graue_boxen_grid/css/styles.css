@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 80px 300px 40px;
+    gap: 10px;
+    grid-template-areas:
+        "kopfzeile kopfzeile"
+        "content sidebar"
+        "fusszeile fusszeile";
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: #aaa;
+}
+
+header {
+    grid-area: kopfzeile;
+    padding: 10px;
+}
+
+#logo {
+    background-color: rgb(255, 100, 30);
+}
+
+nav {
+    background-color: azure;
+}
+
+main {
+    grid-area: content;
+    padding: 10px;
+}
+
+section {
+    background-color: azure;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: fusszeile;
+}
