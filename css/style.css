@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: "Comic Neue", cursive;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+h1 {
+    color: pink;
+}
