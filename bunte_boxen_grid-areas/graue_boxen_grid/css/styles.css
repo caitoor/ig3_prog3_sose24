@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+    display: grid;
+}
+
+header {
+    background-color: rgb(233, 61, 48);
+}
+
+nav {
+    background-color: rgb(82, 48, 233);
+}
+
+aside {
+    background-color: rgb(109, 240, 142);
+}
+
+main {
+    
+}
+
+#yellow {
+    background-color: rgb(255, 244, 95);
+}
+
+#orange {
+    background-color: rgb(253, 168, 111);
+}
+
+footer {
+    background-color: rgb(255, 121, 233);
+}
