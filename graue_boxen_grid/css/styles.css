@@ -12,7 +12,7 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 80px 300px 40px;
+    grid-template-rows: 70px 300px 40px;
     gap: 10px;
     grid-template-areas:
         "kopfzeile kopfzeile"
@@ -33,11 +33,15 @@ header {
 }
 
 #logo {
-    background-color: rgb(255, 100, 30);
+    background-color: rgb(233, 61, 48);
+    height: 20px;
+    width: 30%;
+    margin-bottom: 10px;
 }
 
 nav {
-    background-color: azure;
+    background-color: lightgray;
+    height: 20px;
 }
 
 main {
@@ -46,7 +50,10 @@ main {
 }
 
 section {
-    background-color: azure;
+    background-color: lightgray;
+    height: 80px;
+    width: 70%;
+    margin-bottom: 10px;
 }
 
 aside {
