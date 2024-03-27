@@ -1,5 +1,3 @@
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,41 +14,52 @@ body {
     grid-template-rows: 60px 20px 100px 100px 80px 20px;
     grid-template-columns: 1fr 3fr;
     gap: 5px;
-    grid-template-areas:
-        "kopfzeile kopfzeile"
-        "navi navi"
-        "sidebar yellow"
-        "sidebar orange"
-        "fuss fuss";
 }
 
 header {
-    grid-area: kopfzeile;
     background-color: rgb(233, 61, 48);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 nav {
-    grid-area: navi;
     background-color: rgb(82, 48, 233);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 aside {
-    grid-area: sidebar;
     background-color: rgb(109, 240, 142);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 #yellow {
-    grid-area: yellow;
     background-color: rgb(255, 244, 95);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 #orange {
-    grid-area: orange;
     background-color: rgb(253, 168, 111);
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 footer {
-    grid-area: fuss;
     background-color: rgb(255, 121, 233);
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-
