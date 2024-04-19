@@ -1,0 +1,36 @@
+@media screen and (max-width: 1200px) {
+
+    /* GENERAL STYLES */
+    #wrapper {
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: .5em 0;
+    }
+
+    /* ROCKET CARDS STYLES */
+
+    #cards-wrapper {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    main h3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #overview-wrapper {
+        max-width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
