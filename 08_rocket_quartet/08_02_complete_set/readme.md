@@ -1,3 +1,3 @@
-# Simple Website Boilerplate Code
+# Rocket Quartet (complete set)
 
-This is a simple boilerplate setup for simple websites.
+This exercise showcases 32 quartet cards using JSON data and jQuery in a simple website.
