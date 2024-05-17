@@ -13,6 +13,7 @@
     console.log("planets:");
     console.log(planets);
   }
+
 </script>
 
 <main>
@@ -24,4 +25,10 @@
 </main>
 
 <style>
+  ul li {
+    list-style: none;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
 </style>
