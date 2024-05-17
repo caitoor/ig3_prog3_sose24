@@ -1,0 +1,43 @@
+/* GENERIC WEBSITE STYLES */
+
+* {
+  box-sizing: border-box;
+  font-family: "Fira Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(26, 0, 43);
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /* GENERAL STYLES */
+  #wrapper {
+    padding: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: .5em 0;
+  }
+}
+
+#overview-wrapper tr:nth-child(even) {
+  background-color: rgba(220, 216, 227, 0.15);
+}
+
+#overview-wrapper tr:hover {
+  background-color: rgba(146, 90, 243, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}

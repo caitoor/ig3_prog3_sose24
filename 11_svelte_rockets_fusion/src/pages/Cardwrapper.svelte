@@ -1,6 +1,6 @@
 <script>
     import rocketData from "../data/data.js";
-    import Card from "../components/Card.svelte.js";
+    import Card from "../components/Card.svelte";
 </script>
 
 <div id="rocket-card-container">
